@@ -32,11 +32,11 @@
 .header {
   height: 100vh;
 }
-#search-box {
+#search-box__menu-icon {
   display: flex;
   list-style: none;
-  flex-direction: row; /* make main axis horizontal (default setting) */
-  justify-content: center; /* center items horizontally, in this case */
+  flex-direction: row; 
+  justify-content: center; 
 
   height: 24px;
 }
@@ -81,4 +81,11 @@
 }
 .user__avatar-img {
   border-radius: 50%;
+}
+.related-videos {
+    text-align: right;
+    margin-top: 80px;
+}
+.embedded-videos{
+ list-style: none;
 }
