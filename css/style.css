@@ -55,8 +55,26 @@
 }
 #list-of-video-features {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
+
+#list-of-video-features > li {
+  padding: 0.5rem;
+}
+
+.row-of {
+  color: #909090;
+  display: flex;
+}
+
+.number-views {
+  justify-content: left;
+  align-items: center;
+  width: 20%;
+}
+
 .video-options {
   position: absolute;
   left: 73%;
