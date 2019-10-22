@@ -25,4 +25,3 @@
 <H2>It shows the number of views.</H2>
 
 
-<img src="https://www.photobox.co.uk/my/photo?album_id=5732691367&photo_id=502260047717">
