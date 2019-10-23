@@ -142,3 +142,10 @@
 .subscribe-btn:hover {
   cursor: pointer;
 }
+#main-video {
+  width:420;
+  height: 415;
+}
+#img{
+  width:48;
+}
