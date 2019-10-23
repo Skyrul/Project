@@ -73,6 +73,7 @@
 }
 #list-of-video-features {
   display: flex;
+  margin-left: 250px;
   justify-content: space-between;
   align-items: center;
   list-style: none;
@@ -114,10 +115,16 @@
   width: 20%;
 }
 .user__name {
+  position: relative;
+  top: 20px;
+  left: -60px;
   width: 30%;
 }
 .user__avatar-img {
   border-radius: 50%;
+  position: relative;
+  top: -12px;
+  left: -60px;
 }
 .aside-related-videos {
   text-align: right;
@@ -143,10 +150,14 @@
 }
 
 .subscribe-button {
+  
   justify-content: center;
   align-items: center;
 }
 .subscribe-btn {
+  position: relative;
+  top: -20px;
+  left: 180px;
   background-color: #cc0000;
   color: white;
   padding: 0.5rem;
@@ -156,21 +167,12 @@
   cursor: pointer;
 }
 #main-video {
-<<<<<<< HEAD
-  width:420;
-  height: 315;
- 
-}
-#img{
-  width:48;
-  
-=======
   width: 651px;
   height: 366px;
   left: 0px;
   top: 0px;
 }
 #img {
-  width: 48;
->>>>>>> b2e729bf4dbe2cfc479269c0f8952b8c74192a96
+ height: 60px;
+ width: 60px;
 }
