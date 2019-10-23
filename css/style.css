@@ -13,6 +13,18 @@
   height: 40px;
 }
 
+.logo > img {
+  width: 80px;
+  height: 80px;
+}
+
+.main-content__video {
+  width: 651px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+}
+
 .list {
   display: flex;
   list-style: none;
@@ -29,24 +41,31 @@
   font-size: 1.1rem;
   padding: 0.5rem;
 }
-.header {
-  height: 100vh;
+
+.item__icon-size {
+  width: 20px;
+  height: 20px;
 }
-#search-box {
+
+.header {
+  height: 100px;
+}
+#search-box__menu-icon {
   display: flex;
   list-style: none;
-  flex-direction: row; /* make main axis horizontal (default setting) */
-  justify-content: center; /* center items horizontally, in this case */
+  flex-direction: row;
+  justify-content: center;
 
   height: 24px;
 }
 .header-title {
   text-align: left;
 }
-.header-box {
+.main-content {
+  /* background-color: brown; */
   position: absolute;
-  left: 50%;
-  top: 50%;
+  left: 33%;
+  top: 80%;
   transform: translate(-50%, -50%);
   width: 40%;
   text-align: center;
@@ -54,8 +73,27 @@
 }
 #list-of-video-features {
   display: flex;
+  margin-left: 250px;
+  justify-content: space-between;
+  align-items: center;
   list-style: none;
 }
+
+#list-of-video-features > li {
+  padding: 0.5rem;
+}
+
+.row-of {
+  color: #909090;
+  display: flex;
+}
+
+.number-views {
+  justify-content: left;
+  align-items: center;
+  width: 20%;
+}
+
 .video-options {
   position: absolute;
   left: 73%;
@@ -69,16 +107,72 @@
 
 .user {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: flex-start;
   width: 70%;
 }
 .user__avatar {
   width: 20%;
 }
 .user__name {
+  position: relative;
+  top: 20px;
+  left: -60px;
   width: 30%;
 }
 .user__avatar-img {
   border-radius: 50%;
+  position: relative;
+  top: -12px;
+  left: -60px;
+}
+.aside-related-videos {
+  text-align: right;
+  position: absolute;
+  left: 86%;
+  top: 129%;
+  transform: translate(-50%, -50%);
+  /* background-color: blueviolet; */
+  margin-top: 80px;
+}
+
+.related-videos li {
+  list-style: none;
+  width: 168;
+  height: 94;
+}
+
+.user-subscribe {
+  display: flex;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-button {
+  
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-btn {
+  position: relative;
+  top: -20px;
+  left: 180px;
+  background-color: #cc0000;
+  color: white;
+  padding: 0.5rem;
+  border: 0;
+}
+.subscribe-btn:hover {
+  cursor: pointer;
+}
+#main-video {
+  width: 651px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+}
+#img {
+ height: 60px;
+ width: 60px;
 }
