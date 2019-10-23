@@ -30,5 +30,7 @@ It shows the recommended video’s thumbnail preview.
 It shows the title of the video.
 It shows the number of views.
 
-# Screenshot
-<img src="https://ibb.co/1rR5wcH ">
+
+# Credits
+### https://github.com/Skyrul
+### https://github.com/Psiale
