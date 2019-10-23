@@ -13,6 +13,11 @@
   height: 40px;
 }
 
+.logo > img {
+  width: 80px;
+  height: 80px;
+}
+
 .list {
   display: flex;
   list-style: none;
