@@ -18,6 +18,13 @@
   height: 80px;
 }
 
+.main-content__video {
+  width: 651px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
+}
+
 .list {
   display: flex;
   list-style: none;
@@ -34,6 +41,12 @@
   font-size: 1.1rem;
   padding: 0.5rem;
 }
+
+.item__icon-size {
+  width: 20px;
+  height: 20px;
+}
+
 .header {
   height: 100px;
 }
@@ -51,7 +64,7 @@
 .main-content {
   /* background-color: brown; */
   position: absolute;
-  left: 50%;
+  left: 33%;
   top: 80%;
   transform: translate(-50%, -50%);
   width: 40%;
@@ -143,9 +156,11 @@
   cursor: pointer;
 }
 #main-video {
-  width:420;
-  height: 415;
+  width: 651px;
+  height: 366px;
+  left: 0px;
+  top: 0px;
 }
-#img{
-  width:48;
+#img {
+  width: 48;
 }
